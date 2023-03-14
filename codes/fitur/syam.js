@@ -6,7 +6,7 @@ if (!q) return md.sendMessage(from, {text: "kamu mau nenye?, iye?"}, {quoted: md
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "api key open ai anda",
 });
 const openai = new OpenAIApi(configuration);
 try {
